@@ -1,6 +1,12 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: CI/CD pipeline for github projects
 
+Parameters:
+  GitHubRepo:
+    Type: String
+    Description: sample param
+    Default : sample
+
 Resources:
   rGlueDatabase:
     Type: 'AWS::Glue::Database'
