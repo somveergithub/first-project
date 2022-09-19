@@ -11,7 +11,7 @@ Resources:
   rGlueDatabase:
     Type: 'AWS::Glue::Database'
     Properties:
-      Catalogid: !Ref AWS::AccountId
+      CatalogId: !Ref AWS::AccountId
       DatabaseInput:
         Name: 'hello'
         Description: Sample glue database
