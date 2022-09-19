@@ -1,5 +1,8 @@
 {
-  "Parameters" : {},
-  "Tags" : {}, 
-  "StackPolicy" : {}
+    "Parameters": {
+        "GitHubRepo": "sample"
+    },
+    "Tags": {
+        "primaryITContact": "blank"
+    }
 }
